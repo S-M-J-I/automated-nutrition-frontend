@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/automated-nutrition-frontend/static/css/main.073c9b0a.css",
+    "main.js": "/automated-nutrition-frontend/static/js/main.f381920d.js",
+    "static/js/787.83ea69ca.chunk.js": "/automated-nutrition-frontend/static/js/787.83ea69ca.chunk.js",
+    "index.html": "/automated-nutrition-frontend/index.html",
+    "main.073c9b0a.css.map": "/automated-nutrition-frontend/static/css/main.073c9b0a.css.map",
+    "main.f381920d.js.map": "/automated-nutrition-frontend/static/js/main.f381920d.js.map",
+    "787.83ea69ca.chunk.js.map": "/automated-nutrition-frontend/static/js/787.83ea69ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f381920d.js"
+  ]
+}
