@@ -63,7 +63,7 @@ function App() {
     }
 
 
-    fetch("http://127.0.0.1:5000/get-food", {
+    fetch("http://smji14.pythonanywhere.com/get-food", {
       method: "POST",
       mode: "cors",
       headers: {
