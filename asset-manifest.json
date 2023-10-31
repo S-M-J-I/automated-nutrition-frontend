@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/automated-nutrition-frontend/static/css/main.073c9b0a.css",
-    "main.js": "/automated-nutrition-frontend/static/js/main.f381920d.js",
+    "main.css": "/automated-nutrition-frontend/static/css/main.4d8f46a5.css",
+    "main.js": "/automated-nutrition-frontend/static/js/main.44943c46.js",
     "static/js/787.83ea69ca.chunk.js": "/automated-nutrition-frontend/static/js/787.83ea69ca.chunk.js",
+    "static/media/bg.jpg": "/automated-nutrition-frontend/static/media/bg.82efe1a841c873db4786.jpg",
     "index.html": "/automated-nutrition-frontend/index.html",
-    "main.073c9b0a.css.map": "/automated-nutrition-frontend/static/css/main.073c9b0a.css.map",
-    "main.f381920d.js.map": "/automated-nutrition-frontend/static/js/main.f381920d.js.map",
+    "main.4d8f46a5.css.map": "/automated-nutrition-frontend/static/css/main.4d8f46a5.css.map",
+    "main.44943c46.js.map": "/automated-nutrition-frontend/static/js/main.44943c46.js.map",
     "787.83ea69ca.chunk.js.map": "/automated-nutrition-frontend/static/js/787.83ea69ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f381920d.js"
+    "static/css/main.4d8f46a5.css",
+    "static/js/main.44943c46.js"
   ]
 }
