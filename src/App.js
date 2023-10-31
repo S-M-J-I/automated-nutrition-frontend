@@ -66,6 +66,7 @@ function App() {
     fetch("http://smji14.pythonanywhere.com/get-food", {
       method: "POST",
       mode: "cors",
+      referrerPolicy: "unsafe-url",
       headers: {
         "Content-Type": "application/json"
       },
