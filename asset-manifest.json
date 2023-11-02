@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/automated-nutrition-frontend/static/css/main.4d8f46a5.css",
-    "main.js": "/automated-nutrition-frontend/static/js/main.e6230883.js",
+    "main.js": "/automated-nutrition-frontend/static/js/main.51273105.js",
     "static/js/787.83ea69ca.chunk.js": "/automated-nutrition-frontend/static/js/787.83ea69ca.chunk.js",
     "static/media/bg.jpg": "/automated-nutrition-frontend/static/media/bg.82efe1a841c873db4786.jpg",
     "index.html": "/automated-nutrition-frontend/index.html",
     "main.4d8f46a5.css.map": "/automated-nutrition-frontend/static/css/main.4d8f46a5.css.map",
-    "main.e6230883.js.map": "/automated-nutrition-frontend/static/js/main.e6230883.js.map",
+    "main.51273105.js.map": "/automated-nutrition-frontend/static/js/main.51273105.js.map",
     "787.83ea69ca.chunk.js.map": "/automated-nutrition-frontend/static/js/787.83ea69ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d8f46a5.css",
-    "static/js/main.e6230883.js"
+    "static/js/main.51273105.js"
   ]
 }
