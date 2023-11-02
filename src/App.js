@@ -25,10 +25,10 @@ function App() {
 
   const generateFoodList = () => {
     let ageGroup = ""
-    if (age >= 9 && age <= 13) {
+    if (age >= 9 && age < 18) {
       ageGroup = "K"
     }
-    else if (age >= 14 && age <= 50) {
+    else if (age >= 18 && age <= 50) {
       ageGroup = "A"
     }
     else {
@@ -62,8 +62,9 @@ function App() {
       ...med
     }
 
+    const url = "https://smji14.pythonanywhere.com/get-food"
 
-    fetch("https://smji14.pythonanywhere.com/get-food", {
+    fetch(url, {
       method: "POST",
       mode: "cors",
       headers: {
@@ -77,27 +78,18 @@ function App() {
         const fLi = []
 
         for (let key in data[0]) {
-          if (key.includes("/day")) {
-            const obj = {}
-            if (data[0][key] !== NaN) {
-              obj[key] = data[0][key]
-              nLi.push(obj)
-            }
-
-          } else {
-            fLi.push({ name: key })
-          }
+          fLi.push({ name: key })
         }
 
         // console.log(nutritionMeasureList)
         console.log(data[1])
 
         setFoodList(fLi)
-        setNutritionMeasureList(nLi)
         setFoodPriceList(data[1])
+        setTotalPrice(data[2].price)
 
-        if (data.length === 3) {
-          setFoodAvoidList(data[2].avoid)
+        if (data.length === 4) {
+          setFoodAvoidList(data[3].avoid)
         }
 
       })
